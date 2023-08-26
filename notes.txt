@@ -1,0 +1,151 @@
+DS -> DSA ->
+
+problem -> solution -> program 
+
+1) space complexity : space taken by program 
+2) time complexity  : time taken by program 
+
+
+algo -> 
+    addition 5 numbers -> array:int  
+
+ 
+
+for(i=1;i<=n;i++){
+    for(j=1;j<=5;j++){
+        printf("hi\n");
+    }
+}
+25
+
+1) best case --
+2) avg case  --
+3) worst case --  big oh O 
+
+program -> 5 12 15 25 
+best: 5
+avg: XXX 
+worst: 25 
+
+
+ O(log n) => O(n) 
+
+ n*n 
+ n^2 
+ 2 log n 
+
+
+for(i=1;i<=n;i++){
+    for(j=1;j<=n;j++){
+        printf("hi\n");
+    }
+}
+
+
+n*n-i 
+for(i=1;i<=n;i++){
+    for(j=1;j<=n-i;j++){
+        printf("hi\n");
+    }
+}
+
+
+                                 DS 
+
+    Linear                                                  NoN Linear
+    array                                                       tree , graph ,hashing     
+    statck
+    queue 
+    linked list 
+
+
+    sorting 
+    searching 
+--------------------------------------------------------------------------------------------    
+
+
+
+array -> collection of same type of data -> linear ds 
+      -> continue 
+
+int a[5];// 0    1     2     3      4 
+        // 2000  2004
+
+1d array -> 
+    for(i=0;i<5;i++){
+        scanf("%d",&a[i]);//0 1 2 3 4 
+    }
+
+----------------------------------------------------------
+ //ram-> stack  | heap 
+
+void add(){ 
+ int x; // 4 byte  - 1500 
+ static int y=15; // 4 byte - 2500  
+    register int z;
+}
+
+int main(){
+    add();
+    add();
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
