@@ -90,6 +90,47 @@ int main(){
     add();
     return 0;
 }
+----------------------
+
+
+array -> remove -> rshift 
+insert -> if index == 0 no shift 
+
+0 0 0 60 55  
+
+
+------------------------
+
+searching -> to search an element in the array 
+
+search(int key){
+    return index 
+    return -1 
+}
+
+1)  linear search 
+2)  binary search 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
