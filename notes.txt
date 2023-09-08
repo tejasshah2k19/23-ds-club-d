@@ -111,6 +111,42 @@ search(int key){
 1)  linear search 
 2)  binary search 
 
+-------------------------------
+royal -> layor 
+
+reverse the string using stack 
+
+enter the string 
+royal 
+
+l 
+a
+y
+o
+r
+
+layor 
+-----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
