@@ -129,6 +129,96 @@ layor
 -----------------------------------------
 
 
+A:addition
+D:delete 
+M:multiplication
+C:Clear 
+S:Subtraction  
+
+12M3D4A5 
+
+
+[i] : 1 
+stack 
+1
+
+[i] : 2 
+stack 
+2
+1
+
+
+[i] : M  {multiplication of stack items {last 2}}
+2*1 : 2 
+stack:
+2 
+
+[i] : 3 
+stack:
+3
+2
+
+[i] : D {delete single item from stack - top of the stack }
+stack:
+2 
+
+[i] : 4 
+stack : 
+4
+2 
+
+
+[i] : A [ addition of last two ]
+4+2 : 6 
+stack : 
+6 
+
+[i] : 5 
+stack 
+5
+6 
+
+now your string is over -> perform addition of all items from stack -> 
+ans => 11
+------------------------------------------------------
+		1 : insert at end 			    1 : insert at end 			1 : insert at end 	
+		2 : insert at beg			    3 : delete from end 		2 : insert at beg	
+		3 : delete from end 			4 : delete from beg			4 : delete from beg	
+		4 : delete from beg							
+------------------------------------------------------
+
+L
+A
+Y
+O
+R
+
+reverse()
+R
+O
+Y
+A
+L
+
+-------------------------------------------------------------
+
+
+									
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
 
 
 

@@ -24,16 +24,18 @@ void display()
         printf("\n%d", stack[i]);
     }
 }
-void pop()
+int pop()
 {
     if (top == -1)
     {
         printf("\nStakc is empty");
+        return -1;
     }
     else
     {
         printf("\n%d is pop", stack[top]);
-        top--;
+
+        return stack[top--];
     }
 }
 void peep(int location)
@@ -42,9 +44,10 @@ void peep(int location)
     printf("\n%d", stack[index]);
 }
 
-void peek()
+int peek()
 {
     printf("\n%d", stack[top]);
+    return stack[top];
 }
 
 int main()
